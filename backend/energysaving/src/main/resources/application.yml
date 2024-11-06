@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: energysaving
+  data:
+    mongodb:
+      uri: mongodb+srv://palashmahajan22:9MAPdKVB5miLad7t@cluster0.tb6gs.mongodb.net/
+      database: energy
+      auto-index-creation: true
+  main:
+    allow-circular-references: true
+server:
+  port: 8080
